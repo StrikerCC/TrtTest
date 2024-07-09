@@ -1,0 +1,59 @@
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.heic
+*.JPG
+*.JPEG
+*.PNG
+*.BMP
+*.TIF
+*.TIFF
+*.HEIC
+*.mp4
+*.mov
+*.MOV
+*.avi
+*.Dir
+*.json
+*.cfg
+*.ply
+*.stl
+*.pcd
+*.zip
+
+# Byte-compiled / optimized / DLL files
+bin/
+/build*
+*.dll
+Make*/
+cmake-build-debug/
+cmake-build-release/
+.cache
+.idea/
+.project
+.settings/
+.vs
+.vscode
+/cmake-*
+**/__pycache__
+357/
+
+# C extensions
+*.so
+
+# code -------------------------------------------------------------------------------------------------------------
+#include/CalibrateCarmWrapper.hpp
+#include/CalibrateCarm.h
+#src/CalibrateCarm.cpp
+
+# Datasets -------------------------------------------------------------------------------------------------------------
+data/
+dsa_robot_model/
+resnet50/
+
+# Results -------------------------------------------------------------------------------------------------------------
+tmp_results/
+bench_mark/
